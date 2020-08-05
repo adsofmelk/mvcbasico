@@ -1,0 +1,45 @@
+<?php
+  require_once("views/header.phtml");
+?>
+
+    <a href="index.php?controlador=usuarios&accion=crearusuario"> + Agregar Usuario </a>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Id</th>
+          <th>nombre</th>
+          <th>email</th>
+          <th>Password</th>
+          <th>Rol</th>
+          <th>Opciones</th>
+        </tr>
+      </thead>
+      <tbody>
+
+  <?php
+
+    foreach ($datos as $dato) {
+      echo "<tr>";
+
+      echo "<td>" . $dato['id'] . "</td>";
+      echo "<td>" . $dato['nombre'] . "</td>";
+      echo "<td>" . $dato['email'] . "</td>";
+      echo "<td>" . $dato['password'] . "</td>";
+      echo "<td>" . $dato['rol'] . "</td>";
+      echo "<td>
+          [<a href='index.php?controlador=usuarios&accion=actualizarusuario&id=". $dato['id']."' >Actualizar</a>]
+          [ <a href='index.php?controlador=usuarios&accion=borrarusuario&id=". $dato['id']."' > Borrar </a>]
+          [<a href='index.php?controlador=usuarios&accion=verusuario&id=". $dato['id']."' > Ver </a>] </td>";
+
+      echo "</tr>";
+
+    }
+  ?>
+
+      </tbody>
+    </table>
+
+
+    <?php
+      require_once("views/footer.phtml");
+    ?>

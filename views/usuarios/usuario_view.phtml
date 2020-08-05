@@ -1,0 +1,16 @@
+<?php
+  require_once("views/header.phtml");
+?>
+
+    <?php
+
+      foreach ($datos as $key => $value) {
+        echo $key . " -> ".$value . "<br>";
+      }
+
+     ?>
+
+
+     <?php
+       require_once("views/footer.phtml");
+     ?>

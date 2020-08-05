@@ -1,0 +1,35 @@
+<?php
+  require_once("views/header.phtml");
+?>
+    <form class="" action="index.php?controlador=usuarios&accion=guardaractializacionusuario" method="post">
+      <p>
+        nombre: <input type="text" name="nombre" value="<?php echo $datos['nombre'] ?>">
+      </p>
+
+      <p>
+        email: <input type="text" name="email" value="<?php echo $datos['email'] ?>">
+      </p>
+
+      <p>
+        Password:<input type="password" name="password" value="<?php echo $datos['password'] ?>">
+      </p>
+
+      <p>
+        Rol:
+        <select class="" name="rol">
+          <option value="administrador" <?php echo ($datos['rol'] == "administrador")? "SELECTED": ""; ?> >Administrador</option>
+          <option value="negocio" <?php echo ($datos['rol'] == "negocio")? "SELECTED": ""; ?>  >Negocio</option>
+          <option value="cliente" <?php echo ($datos['rol'] == "cliente")? "SELECTED": ""; ?>  >Cliente</option>
+        </select>
+      </p>
+
+      <p>
+        <input type="hidden" name="id" value="<?php echo $datos['id']; ?>">
+        <input type="submit" name="" value="Guardar Usuario">
+      </p>
+
+    </form>
+
+    <?php
+      require_once("views/footer.phtml");
+    ?>
