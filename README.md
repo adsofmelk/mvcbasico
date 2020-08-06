@@ -3,7 +3,7 @@ Este repositorio contiene una estructura básica para la creación de la aplicac
 
 # Instalación:
 
-1. Clone el repositorio y ubíquelo dentro del folder de servidor web
+1. Clone el repositorio y ubiquelo dentro del folder de servidor web
 2. Modifique el archivo de configuración config.php con los datos de su base de datos
 
 # Más información:
