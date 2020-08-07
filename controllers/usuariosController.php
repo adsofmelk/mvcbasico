@@ -10,6 +10,8 @@ verificarPermisos('administrador');
     switch($_GET['accion']){
 
       case 'crearusuario':
+
+
         require("views/usuarios/form_crearusuario_view.phtml");
         break;
 

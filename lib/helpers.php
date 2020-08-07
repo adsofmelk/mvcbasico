@@ -18,12 +18,8 @@
             header('Location: index.php?controlador=usuarios');
           break;
 
-        case 'usuario':
-            header('Location: index.php?controlador=homeusuario');
-          break;
-
-        case 'negocio':
-            header('Location: index.php?controlador=homenegocio');
+        case 'tecnico':
+            header('Location: index.php?controlador=hometecnico');
           break;
 
       }
