@@ -10,6 +10,10 @@ Este repositorio contiene una estructura básica para la creación de la aplicac
 
 Puede consultar los videos de como se realizo la construcción del sistema:
 
-https://www.youtube.com/watch?v=PtF_Z5Myh4g&list=PLvwhTznDqSIPCcGMkXpsRUhC1hCPY1uzE&index=9&t=0s
+Parte 1: https://www.youtube.com/watch?v=PtF_Z5Myh4g&list=PLvwhTznDqSIPCcGMkXpsRUhC1hCPY1uzE&index=9&t=0s
+
+Parte 2: 
 https://www.youtube.com/watch?v=uPGeCZwwNZI&list=PLvwhTznDqSIPCcGMkXpsRUhC1hCPY1uzE&index=9
+
+Parte 3:
 https://www.youtube.com/watch?v=OGIHMr9FWs0&list=PLvwhTznDqSIPCcGMkXpsRUhC1hCPY1uzE&index=10
